@@ -1,0 +1,38 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Local input data, samples, backups and generated results
+*.csv
+!templates/*.csv
+*.jsonl
+*.log
+*.encoding-backup
+*.bak
+request.json
+demo_access
+data/
+outputs/
+outputs_demo/
+screenshots/
+tests/
+test_*.py
+*_test.py
+.env
+.env.*
+
+# Local documents contain teaching/test scenarios and are not repository inputs
+*.docx
+API资产审计_阶段报告.md
+build_guide.py
+
+# Keep only our Nginx configuration, not the downloaded distribution
+/nginx/*
+!/nginx/conf/
+/nginx/conf/*
+!/nginx/conf/nginx.conf
